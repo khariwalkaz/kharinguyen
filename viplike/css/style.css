@@ -1,0 +1,95 @@
+.btn-file{
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file]{
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: #0088cc;
+    cursor: inherit;
+    display: block;
+}
+::-webkit-scrollbar{
+    background:silver;
+    width:10px;height:10px;
+    border-radius:5px;
+}
+::-webkit-scrollbar-thumb{
+    background:#00c0ef;
+    border-radius:5px;
+}
+.menu{
+    background: #0088cc;
+    border-bottom: 1px solid #00ff00;
+}
+#page-wrapper{
+    background: none;
+    padding: 0px;
+    height:auto;
+}
+.list{
+    color: #333;
+}
+.panel-success > .panel-heading {
+    color: #31708f;
+    border-color: red;
+    width:100%;
+    position: fixed;
+    z-index: 999
+}  
+.panel-body{
+    padding-top:80px;
+    padding-left:5px;
+    padding-right: 10px;
+}
+.sidebar .sidebar-search{
+    border-bottom: 1px solid red;
+    border-top: 1px solid #00ff00;
+}
+.title{
+    color: #333;
+    font-weight: bold;
+}
+.err{
+    color: #fff;
+    background: #333;
+    border-radius: 3px;
+}
+.info{
+    color:#333;
+    background: #00c0ef;
+    border-radius: 3px;
+}
+body{
+    cursor: url('../css/cur/arrow.cur'), auto;
+}
+a:hover,input:hover,select:hover{
+    cursor: url('../css/cur/hover.cur'), auto;
+}
+            
+/* áp dụng cho màn hình chiều rộng max 767px */
+@media screen and (max-width: 767px)
+{
+    .panel-success > .panel-heading{
+            color: #31708f;
+            border-color: red;
+            width:100%;
+            position: fixed;
+            z-index: 999;
+            margin-top: 50px;
+        }  
+        .dataTables_length{
+            margin-top: 45px;
+        }
+        .form-horizontal{
+            margin-top: 45px;
+        }
+}

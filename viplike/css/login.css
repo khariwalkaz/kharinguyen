@@ -1,0 +1,11 @@
+#login{
+    display: none;
+}
+#captcha_number{
+    width:66px;
+    height:20px;
+    text-align:center;
+    background:#333;color:#fff;
+    font-weight:bold;
+}
+           
