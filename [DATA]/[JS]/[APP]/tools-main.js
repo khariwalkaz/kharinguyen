@@ -784,6 +784,9 @@ function _parse(_0xf2a4x17) {
         switch (_exe) {
             default: _ret('Command not supported. Type \'<b class=\'hlight\'>help</b>\' for more info.', false);
             break;
+			case 'khari':
+                    _clear();
+                break;
             case 'clear':
                     _clear();
                 break;
@@ -884,7 +887,12 @@ function _parse(_0xf2a4x17) {
         }
     }
 }
-
+function _khari() {
+    $('#result')['empty']();
+    if ($['browser']['mobile']) {
+        fixpos()
+    }
+}
 function _clear() {
     $('#result')['empty']();
     if ($['browser']['mobile']) {
