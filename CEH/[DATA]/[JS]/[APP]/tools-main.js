@@ -1,8 +1,1208 @@
-/*
-  Author:
-		lht
-  Contact:
-		Facebook: ~/LHT.HVH
-		Mail: l.h-t[at]hotmail.com
-*/
-var _0x7698=["\x2E\x2E\x2F\x5B\x44\x41\x54\x41\x5D\x2F\x5B\x4A\x53\x5D\x2F\x5B\x4C\x49\x42\x5D\x2F\x6A\x71\x75\x65\x72\x79\x2E\x78\x64\x6F\x6D\x61\x69\x6E\x61\x6A\x61\x78\x2E\x6A\x73","\x67\x65\x74\x53\x63\x72\x69\x70\x74","\x53\x68\x6F\x77\x20\x63\x75\x72\x72\x65\x6E\x74\x20\x62\x72\x6F\x77\x73\x65\x72\x20\x55\x73\x65\x72\x2D\x41\x67\x65\x6E\x74","\x54\x79\x70\x65\x20\x27\x3C\x62\x20\x63\x6C\x61\x73\x73\x3D\x27\x68\x6C\x69\x67\x68\x74\x27\x3E\x6D\x79\x75\x73\x65\x72\x61\x67\x65\x6E\x74\x3C\x2F\x62\x3E\x27\x20\x77\x69\x74\x68\x6F\x75\x74\x20\x61\x6E\x79\x20\x61\x72\x67\x75\x6D\x65\x6E\x74\x2E","\x53\x68\x6F\x77\x20\x63\x75\x72\x72\x65\x6E\x74\x20\x49\x50\x20\x41\x64\x64\x72\x65\x73\x73\x20\x61\x6E\x64\x20\x49\x50\x20\x49\x6E\x66\x6F\x72\x6D\x61\x74\x69\x6F\x6E\x73","\x54\x79\x70\x65\x20\x27\x3C\x62\x20\x63\x6C\x61\x73\x73\x3D\x27\x68\x6C\x69\x67\x68\x74\x27\x3E\x6D\x79\x69\x70\x3C\x2F\x62\x3E\x27\x20\x77\x69\x74\x68\x6F\x75\x74\x20\x61\x6E\x79\x20\x61\x72\x67\x75\x6D\x65\x6E\x74\x2E","\x50\x69\x6E\x67\x20\x74\x6F\x6F\x6C","\x3C\x62\x20\x63\x6C\x61\x73\x73\x3D\x27\x68\x6C\x69\x67\x68\x74\x27\x3E\x70\x69\x6E\x67\x3C\x2F\x62\x3E\x20\x68\x6F\x73\x74\x6E\x61\x6D\x65","\x54\x72\x61\x63\x65\x72\x6F\x75\x74\x65\x20\x74\x6F\x6F\x6C","\x3C\x62\x20\x63\x6C\x61\x73\x73\x3D\x27\x68\x6C\x69\x67\x68\x74\x27\x3E\x74\x72\x61\x63\x65\x72\x6F\x75\x74\x65\x3C\x2F\x62\x3E\x20\x68\x6F\x73\x74\x6E\x61\x6D\x65","\x49\x50\x20\x4C\x6F\x6F\x6B\x75\x70","\x3C\x62\x20\x63\x6C\x61\x73\x73\x3D\x27\x68\x6C\x69\x67\x68\x74\x27\x3E\x69\x70\x6C\x6F\x6F\x6B\x75\x70\x3C\x2F\x62\x3E\x20\x68\x6F\x73\x74\x6E\x61\x6D\x65","\x52\x65\x76\x65\x72\x73\x65\x20\x69\x70\x20\x74\x6F\x20\x66\x69\x6E\x64\x20\x6F\x75\x74\x20\x77\x68\x69\x63\x68\x20\x73\x69\x74\x65\x20\x68\x6F\x73\x74\x65\x64\x20\x6F\x6E\x20\x73\x61\x6D\x65\x20\x49\x50","\x3C\x62\x20\x63\x6C\x61\x73\x73\x3D\x27\x68\x6C\x69\x67\x68\x74\x27\x3E\x72\x65\x76\x65\x72\x73\x65\x69\x70\x3C\x2F\x62\x3E\x20\x68\x6F\x73\x74\x6E\x61\x6D\x65","\x44\x4E\x53\x20\x52\x65\x63\x6F\x72\x64\x20\x6C\x6F\x6F\x6B\x75\x70\x20\x74\x6F\x6F\x6C","\x3C\x62\x20\x63\x6C\x61\x73\x73\x3D\x27\x68\x6C\x69\x67\x68\x74\x27\x3E\x64\x6E\x73\x72\x65\x63\x6F\x72\x64\x3C\x2F\x62\x3E\x20\x64\x6F\x6D\x61\x69\x6E","\x57\x68\x6F\x69\x73\x20\x64\x6F\x6D\x61\x69\x6E","\x3C\x62\x20\x63\x6C\x61\x73\x73\x3D\x27\x68\x6C\x69\x67\x68\x74\x27\x3E\x77\x68\x6F\x69\x73\x3C\x2F\x62\x3E\x20\x64\x6F\x6D\x61\x69\x6E","\x47\x65\x6E\x65\x72\x61\x74\x65\x20\x6D\x64\x35\x20\x68\x61\x73\x68","\x3C\x62\x20\x63\x6C\x61\x73\x73\x3D\x27\x68\x6C\x69\x67\x68\x74\x27\x3E\x6D\x64\x35\x3C\x2F\x62\x3E\x20\x74\x65\x78\x74","\x42\x61\x73\x65\x36\x34\x20\x45\x6E\x63\x6F\x64\x65\x72","\x3C\x62\x20\x63\x6C\x61\x73\x73\x3D\x27\x68\x6C\x69\x67\x68\x74\x27\x3E\x62\x61\x73\x65\x36\x34\x65\x6E\x63\x6F\x64\x65\x3C\x2F\x62\x3E\x20\x74\x65\x78\x74","\x42\x61\x73\x65\x36\x34\x20\x44\x65\x63\x6F\x64\x65\x72","\x3C\x62\x20\x63\x6C\x61\x73\x73\x3D\x27\x68\x6C\x69\x67\x68\x74\x27\x3E\x62\x61\x73\x65\x36\x34\x64\x65\x63\x6F\x64\x65\x3C\x2F\x62\x3E\x20\x74\x65\x78\x74","\x52\x6F\x74\x31\x33\x2B\x52\x6F\x74\x35\x20\x45\x6E\x63\x6F\x64\x65\x72\x2F\x44\x65\x63\x6F\x64\x65\x72","\x3C\x62\x20\x63\x6C\x61\x73\x73\x3D\x27\x68\x6C\x69\x67\x68\x74\x27\x3E\x72\x6F\x74\x31\x33\x3C\x2F\x62\x3E\x20\x74\x65\x78\x74","\x52\x6F\x74\x34\x37\x20\x45\x6E\x63\x6F\x64\x65\x72\x2F\x44\x65\x63\x6F\x64\x65\x72","\x3C\x62\x20\x63\x6C\x61\x73\x73\x3D\x27\x68\x6C\x69\x67\x68\x74\x27\x3E\x72\x6F\x74\x34\x37\x3C\x2F\x62\x3E\x20\x74\x65\x78\x74","\x47\x65\x6E\x65\x72\x61\x74\x65\x20\x72\x61\x6E\x64\x6F\x6D\x20\x70\x61\x73\x73\x77\x6F\x72\x64","\x3C\x62\x20\x63\x6C\x61\x73\x73\x3D\x27\x68\x6C\x69\x67\x68\x74\x27\x3E\x72\x61\x6E\x64\x6F\x6D\x70\x61\x73\x73\x3C\x2F\x62\x3E\x20\x6E","\x47\x65\x6E\x65\x72\x61\x74\x65\x20\x72\x61\x6E\x64\x6F\x6D\x20\x69\x64\x65\x6E\x74\x69\x74\x79","\x54\x79\x70\x65\x20\x27\x3C\x62\x20\x63\x6C\x61\x73\x73\x3D\x27\x68\x6C\x69\x67\x68\x74\x27\x3E\x72\x61\x6E\x64\x6F\x6D\x69\x64\x65\x6E\x74\x69\x74\x79\x3C\x2F\x62\x3E\x27\x20\x77\x69\x74\x68\x6F\x75\x74\x20\x61\x6E\x79\x20\x61\x72\x67\x75\x6D\x65\x6E\x74\x2E","\x64\x69\x73\x61\x62\x6C\x65\x49\x6E\x70\x75\x74","\x66\x6E","\x73\x68\x6F\x77","\x23\x6C\x6F\x61\x64\x69\x6E\x67","\x72\x65\x61\x64\x6F\x6E\x6C\x79","\x70\x72\x6F\x70","\x65\x6E\x61\x62\x6C\x65\x49\x6E\x70\x75\x74","\x68\x69\x64\x65","","\x72\x65\x70\x6C\x61\x63\x65","\x5C\x24\x31","\x67","\x73\x69\x7A\x65","\x68\x61\x73\x4F\x77\x6E\x50\x72\x6F\x70\x65\x72\x74\x79","\x73\x74\x72\x69\x6E\x67","\x26\x61\x6D\x70\x3B","\x26\x71\x75\x6F\x74\x3B","\x26\x23\x30\x33\x39\x3B","\x26\x6C\x74\x3B","\x26\x67\x74\x3B","\x67\x65\x74\x53\x65\x6C\x65\x63\x74\x69\x6F\x6E","\x63\x72\x65\x61\x74\x65\x52\x61\x6E\x67\x65","\x73\x65\x6C\x65\x63\x74\x69\x6F\x6E","\x74\x65\x78\x74","\x20\x20","\x20","\x73\x65\x61\x72\x63\x68","\x3C\x70\x72\x65\x3E","\x3C\x2F\x70\x72\x65\x3E","\x61\x70\x70\x65\x6E\x64","\x23\x72\x65\x73\x75\x6C\x74","\x73\x63\x72\x6F\x6C\x6C\x48\x65\x69\x67\x68\x74","\x67\x65\x74","\x23\x63\x6F\x6E\x74\x61\x69\x6E\x65\x72","\x73\x63\x72\x6F\x6C\x6C\x54\x6F\x70","\x6D\x6F\x62\x69\x6C\x65","\x62\x72\x6F\x77\x73\x65\x72","\x76\x61\x6C","\x23\x63\x6F\x6E\x73\x6F\x6C\x65","\x6C\x65\x6E\x67\x74\x68","\x3C\x70\x20\x63\x6C\x61\x73\x73\x3D\x27\x63\x6D\x64\x27\x3E\x26\x6E\x62\x73\x70\x3B\x3C\x2F\x70\x3E","\x3C\x70\x20\x63\x6C\x61\x73\x73\x3D\x27\x63\x6D\x64\x27\x3E","\x3C\x2F\x70\x3E","\x73\x70\x6C\x69\x74","\x74\x6F\x4C\x6F\x77\x65\x72\x43\x61\x73\x65","\x73\x75\x62\x73\x74\x72","\x43\x6F\x6D\x6D\x61\x6E\x64\x20\x6E\x6F\x74\x20\x73\x75\x70\x70\x6F\x72\x74\x65\x64\x2E\x20\x54\x79\x70\x65\x20\x27\x3C\x62\x20\x63\x6C\x61\x73\x73\x3D\x27\x68\x6C\x69\x67\x68\x74\x27\x3E\x68\x65\x6C\x70\x3C\x2F\x62\x3E\x27\x20\x66\x6F\x72\x20\x6D\x6F\x72\x65\x20\x69\x6E\x66\x6F\x2E","\x63\x6C\x65\x61\x72","\x68\x65\x6C\x70","\x72\x65\x6C\x6F\x61\x64","\x65\x78\x69\x74","\x2E\x2E\x2F\x5B\x44\x41\x54\x41\x5D\x2F\x5B\x4A\x53\x5D\x2F\x5B\x41\x50\x50\x5D\x2F\x5F\x73\x68\x6F\x77\x61\x6C\x6C\x2E\x6A\x73","\x73\x68\x6F\x77\x61\x6C\x6C","\x2E\x2E\x2F\x5B\x44\x41\x54\x41\x5D\x2F\x5B\x4A\x53\x5D\x2F\x5B\x41\x50\x50\x5D\x2F\x5F\x6D\x79\x75\x73\x65\x72\x61\x67\x65\x6E\x74\x2E\x6A\x73","\x6D\x79\x75\x73\x65\x72\x61\x67\x65\x6E\x74","\x2E\x2E\x2F\x5B\x44\x41\x54\x41\x5D\x2F\x5B\x4A\x53\x5D\x2F\x5B\x41\x50\x50\x5D\x2F\x5F\x6D\x79\x69\x70\x2E\x6A\x73","\x6D\x79\x69\x70","\x2E\x2E\x2F\x5B\x44\x41\x54\x41\x5D\x2F\x5B\x4A\x53\x5D\x2F\x5B\x41\x50\x50\x5D\x2F\x5F\x6D\x61\x6E\x2E\x6A\x73","\x6D\x61\x6E","\x2E\x2E\x2F\x5B\x44\x41\x54\x41\x5D\x2F\x5B\x4A\x53\x5D\x2F\x5B\x41\x50\x50\x5D\x2F\x5F\x70\x69\x6E\x67\x2E\x6A\x73","\x70\x69\x6E\x67","\x2E\x2E\x2F\x5B\x44\x41\x54\x41\x5D\x2F\x5B\x4A\x53\x5D\x2F\x5B\x41\x50\x50\x5D\x2F\x5F\x74\x72\x61\x63\x65\x72\x6F\x75\x74\x65\x2E\x6A\x73","\x74\x72\x61\x63\x65\x72\x6F\x75\x74\x65","\x2E\x2E\x2F\x5B\x44\x41\x54\x41\x5D\x2F\x5B\x4A\x53\x5D\x2F\x5B\x41\x50\x50\x5D\x2F\x5F\x69\x70\x6C\x6F\x6F\x6B\x75\x70\x2E\x6A\x73","\x69\x70\x6C\x6F\x6F\x6B\x75\x70","\x2E\x2E\x2F\x5B\x44\x41\x54\x41\x5D\x2F\x5B\x4A\x53\x5D\x2F\x5B\x41\x50\x50\x5D\x2F\x5F\x72\x65\x76\x65\x72\x73\x65\x69\x70\x2E\x6A\x73","\x72\x65\x76\x65\x72\x73\x65\x69\x70","\x2E\x2E\x2F\x5B\x44\x41\x54\x41\x5D\x2F\x5B\x4A\x53\x5D\x2F\x5B\x41\x50\x50\x5D\x2F\x5F\x64\x6E\x73\x72\x65\x63\x6F\x72\x64\x2E\x6A\x73","\x64\x6E\x73\x72\x65\x63\x6F\x72\x64","\x2E\x2E\x2F\x5B\x44\x41\x54\x41\x5D\x2F\x5B\x4A\x53\x5D\x2F\x5B\x41\x50\x50\x5D\x2F\x5F\x77\x68\x6F\x69\x73\x2E\x6A\x73","\x77\x68\x6F\x69\x73","\x2E\x2E\x2F\x5B\x44\x41\x54\x41\x5D\x2F\x5B\x4A\x53\x5D\x2F\x5B\x41\x50\x50\x5D\x2F\x5F\x72\x61\x6E\x64\x6F\x6D\x69\x64\x65\x6E\x74\x69\x74\x79\x2E\x6A\x73","\x72\x61\x6E\x64\x6F\x6D\x69\x64\x65\x6E\x74\x69\x74\x79","\x2E\x2E\x2F\x5B\x44\x41\x54\x41\x5D\x2F\x5B\x4A\x53\x5D\x2F\x5B\x41\x50\x50\x5D\x2F\x5F\x6D\x64\x35\x2E\x6A\x73","\x6D\x64\x35","\x2E\x2E\x2F\x5B\x44\x41\x54\x41\x5D\x2F\x5B\x4A\x53\x5D\x2F\x5B\x41\x50\x50\x5D\x2F\x5F\x72\x61\x6E\x64\x6F\x6D\x70\x61\x73\x73\x2E\x6A\x73","\x72\x61\x6E\x64\x6F\x6D\x70\x61\x73\x73","\x2E\x2E\x2F\x5B\x44\x41\x54\x41\x5D\x2F\x5B\x4A\x53\x5D\x2F\x5B\x41\x50\x50\x5D\x2F\x5F\x62\x61\x73\x65\x36\x34\x2E\x6A\x73","\x62\x61\x73\x65\x36\x34\x65\x6E\x63\x6F\x64\x65","\x62\x61\x73\x65\x36\x34\x64\x65\x63\x6F\x64\x65","\x2E\x2E\x2F\x5B\x44\x41\x54\x41\x5D\x2F\x5B\x4A\x53\x5D\x2F\x5B\x41\x50\x50\x5D\x2F\x5F\x72\x6F\x74\x31\x33\x2E\x6A\x73","\x72\x6F\x74\x31\x33","\x2E\x2E\x2F\x5B\x44\x41\x54\x41\x5D\x2F\x5B\x4A\x53\x5D\x2F\x5B\x41\x50\x50\x5D\x2F\x5F\x72\x6F\x74\x34\x37\x2E\x6A\x73","\x72\x6F\x74\x34\x37","\x65\x6D\x70\x74\x79","\x63\x6C\x6F\x73\x65","\x0D\x3C\x66\x6F\x6E\x74\x20\x63\x6F\x6C\x6F\x72\x3D\x27\x23\x45\x30\x41\x33\x39\x34\x27\x3E\x5B\x41\x75\x74\x68\x6F\x72\x5D\x3C\x62\x72\x3E\x26\x6E\x62\x73\x70\x3B\x26\x6E\x62\x73\x70\x3B\x26\x6E\x62\x73\x70\x3B\x4C\x48\x54\x3C\x62\x72\x3E\x0D\x5B\x43\x6F\x6E\x74\x61\x63\x74\x5D\x3C\x62\x72\x3E\x26\x6E\x62\x73\x70\x3B\x26\x6E\x62\x73\x70\x3B\x26\x6E\x62\x73\x70\x3B\x46\x61\x63\x65\x62\x6F\x6F\x6B\x3A\x20\x7E\x2F\x4C\x48\x54\x2E\x48\x56\x48\x3C\x62\x72\x3E\x26\x6E\x62\x73\x70\x3B\x26\x6E\x62\x73\x70\x3B\x26\x6E\x62\x73\x70\x3B\x4D\x61\x69\x6C\x3A\x20\x6C\x2E\x68\x2D\x74\x5B\x61\x74\x5D\x68\x6F\x74\x6D\x61\x69\x6C\x2E\x63\x6F\x6D\x3C\x2F\x66\x6F\x6E\x74\x3E\x3C\x62\x72\x3E\x3C\x62\x72\x3E\x0D\x54\x79\x70\x65\x20\x60\x3C\x62\x20\x63\x6C\x61\x73\x73\x3D\x27\x68\x6C\x69\x67\x68\x74\x27\x3E\x73\x68\x6F\x77\x61\x6C\x6C\x3C\x2F\x62\x3E\x27\x20\x74\x6F\x20\x73\x68\x6F\x77\x20\x74\x68\x65\x20\x6C\x69\x73\x74\x20\x6F\x66\x20\x74\x6F\x6F\x6C\x73\x2E\x3C\x62\x72\x3E\x0D\x54\x79\x70\x65\x20\x60\x3C\x62\x20\x63\x6C\x61\x73\x73\x3D\x27\x68\x6C\x69\x67\x68\x74\x27\x3E\x6D\x61\x6E\x3C\x2F\x62\x3E\x20\x6E\x61\x6D\x65\x27\x20\x74\x6F\x20\x73\x68\x6F\x77\x20\x6D\x61\x6E\x75\x61\x6C\x20\x6F\x66\x20\x63\x6F\x6D\x6D\x61\x6E\x64\x20\x60\x6E\x61\x6D\x65\x27\x2E\x3C\x62\x72\x3E\x0D\x54\x6F\x20\x72\x65\x6C\x6F\x61\x64\x20\x63\x6F\x6E\x73\x6F\x6C\x65\x2C\x20\x79\x6F\x75\x20\x63\x61\x6E\x20\x74\x79\x70\x65\x20\x60\x3C\x62\x20\x63\x6C\x61\x73\x73\x3D\x27\x68\x6C\x69\x67\x68\x74\x27\x3E\x72\x65\x6C\x6F\x61\x64\x3C\x2F\x62\x3E\x27\x2E\x20\x54\x79\x70\x65\x20\x60\x3C\x62\x20\x63\x6C\x61\x73\x73\x3D\x27\x68\x6C\x69\x67\x68\x74\x27\x3E\x63\x6C\x65\x61\x72\x3C\x2F\x62\x3E\x27\x20\x74\x6F\x20\x63\x6C\x65\x61\x72\x20\x63\x6F\x6E\x73\x6F\x6C\x65\x20\x61\x6E\x64\x20\x60\x3C\x62\x20\x63\x6C\x61\x73\x73\x3D\x27\x68\x6C\x69\x67\x68\x74\x27\x3E\x65\x78\x69\x74\x3C\x2F\x62\x3E\x27\x20\x74\x6F\x20\x63\x6C\x6F\x73\x65\x20\x63\x6F\x6E\x73\x6F\x6C\x65\x2E\x0D\x09"];$[_0x7698[1]](_0x7698[0]);var fulllist={"\x6D\x79\x75\x73\x65\x72\x61\x67\x65\x6E\x74":{"\x41\x52\x47\x53":0,"\x44\x45\x53\x43":_0x7698[2],"\x4D\x41\x4E":_0x7698[3]},"\x6D\x79\x69\x70":{"\x41\x52\x47\x53":0,"\x44\x45\x53\x43":_0x7698[4],"\x4D\x41\x4E":_0x7698[5]},"\x70\x69\x6E\x67":{"\x41\x52\x47\x53":1,"\x44\x45\x53\x43":_0x7698[6],"\x4D\x41\x4E":_0x7698[7]},"\x74\x72\x61\x63\x65\x72\x6F\x75\x74\x65":{"\x41\x52\x47\x53":1,"\x44\x45\x53\x43":_0x7698[8],"\x4D\x41\x4E":_0x7698[9]},"\x69\x70\x6C\x6F\x6F\x6B\x75\x70":{"\x41\x52\x47\x53":1,"\x44\x45\x53\x43":_0x7698[10],"\x4D\x41\x4E":_0x7698[11]},"\x72\x65\x76\x65\x72\x73\x65\x69\x70":{"\x41\x52\x47\x53":1,"\x44\x45\x53\x43":_0x7698[12],"\x4D\x41\x4E":_0x7698[13]},"\x64\x6E\x73\x72\x65\x63\x6F\x72\x64":{"\x41\x52\x47\x53":1,"\x44\x45\x53\x43":_0x7698[14],"\x4D\x41\x4E":_0x7698[15]},"\x77\x68\x6F\x69\x73":{"\x41\x52\x47\x53":1,"\x44\x45\x53\x43":_0x7698[16],"\x4D\x41\x4E":_0x7698[17]},"\x6D\x64\x35":{"\x41\x52\x47\x53":1,"\x44\x45\x53\x43":_0x7698[18],"\x4D\x41\x4E":_0x7698[19]},"\x62\x61\x73\x65\x36\x34\x65\x6E\x63\x6F\x64\x65":{"\x41\x52\x47\x53":1,"\x44\x45\x53\x43":_0x7698[20],"\x4D\x41\x4E":_0x7698[21]},"\x62\x61\x73\x65\x36\x34\x64\x65\x63\x6F\x64\x65":{"\x41\x52\x47\x53":1,"\x44\x45\x53\x43":_0x7698[22],"\x4D\x41\x4E":_0x7698[23]},"\x72\x6F\x74\x31\x33":{"\x41\x52\x47\x53":1,"\x44\x45\x53\x43":_0x7698[24],"\x4D\x41\x4E":_0x7698[25]},"\x72\x6F\x74\x34\x37":{"\x41\x52\x47\x53":1,"\x44\x45\x53\x43":_0x7698[26],"\x4D\x41\x4E":_0x7698[27]},"\x72\x61\x6E\x64\x6F\x6D\x70\x61\x73\x73":{"\x41\x52\x47\x53":1,"\x44\x45\x53\x43":_0x7698[28],"\x4D\x41\x4E":_0x7698[29]},"\x72\x61\x6E\x64\x6F\x6D\x69\x64\x65\x6E\x74\x69\x74\x79":{"\x41\x52\x47\x53":0,"\x44\x45\x53\x43":_0x7698[30],"\x4D\x41\x4E":_0x7698[31]}};(function(_0x4e1bx2){_0x4e1bx2[_0x7698[33]][_0x7698[32]]=function(){_0x4e1bx2(_0x7698[35])[_0x7698[34]]();_0x4e1bx2(this)[_0x7698[37]](_0x7698[36],true);return true};_0x4e1bx2[_0x7698[33]][_0x7698[38]]=function(){_0x4e1bx2(_0x7698[35])[_0x7698[39]]();_0x4e1bx2(this)[_0x7698[37]](_0x7698[36],false);return true}})(jQuery);function ltrim(_0x4e1bx4){return _0x4e1bx4[_0x7698[41]](/^\s+/,_0x7698[40])}function rtrim(_0x4e1bx4){return _0x4e1bx4[_0x7698[41]](/\s+$/,_0x7698[40])}function escapeRegExp(_0x4e1bx7){return _0x4e1bx7[_0x7698[41]](/([.*+?^=!:${}()|\[\]\/\\])/g,_0x7698[42])}function replaceAll(_0x4e1bx7,_0x4e1bx9,_0x4e1bxa){return _0x4e1bx7[_0x7698[41]]( new RegExp(escapeRegExp(_0x4e1bx9),_0x7698[43]),_0x4e1bxa)}Object[_0x7698[44]]=function(_0x4e1bxb){var _0x4e1bxc=0,_0x4e1bxd;for(_0x4e1bxd in _0x4e1bxb){if(_0x4e1bxb[_0x7698[45]](_0x4e1bxd)){_0x4e1bxc++}};return _0x4e1bxc};function htmlspecialchars(_0x4e1bx7){if( typeof (_0x4e1bx7)==_0x7698[46]){_0x4e1bx7=_0x4e1bx7[_0x7698[41]](/&/g,_0x7698[47]);_0x4e1bx7=_0x4e1bx7[_0x7698[41]](/"/g,_0x7698[48]);_0x4e1bx7=_0x4e1bx7[_0x7698[41]](/'/g,_0x7698[49]);_0x4e1bx7=_0x4e1bx7[_0x7698[41]](/</g,_0x7698[50]);_0x4e1bx7=_0x4e1bx7[_0x7698[41]](/>/g,_0x7698[51])};return _0x4e1bx7}function GetSelectedText(){if(window[_0x7698[52]]){var _0x4e1bx10=window[_0x7698[52]]();return _0x4e1bx10.toString()}else {if(document[_0x7698[54]][_0x7698[53]]){var _0x4e1bx10=document[_0x7698[54]][_0x7698[53]]();return _0x4e1bx10[_0x7698[55]]}}}function fixparameter(_0x4e1bx12){var _0x4e1bx13=_0x4e1bx12;while(_0x4e1bx13[_0x7698[58]](_0x7698[56])>0){_0x4e1bx13=replaceAll(_0x4e1bx13,_0x7698[56],_0x7698[57])};return _0x4e1bx13}function _ret(_0x4e1bx13,_0x4e1bx15){if(_0x4e1bx15===undefined){_0x4e1bx15=true};if(_0x4e1bx15){txt=htmlspecialchars(_0x4e1bx13)}else {txt=_0x4e1bx13};$(_0x7698[62])[_0x7698[61]](_0x7698[59]+txt+_0x7698[60]);$(_0x7698[65])[_0x7698[66]]($(_0x7698[65])[_0x7698[64]](0)[_0x7698[63]]);if($[_0x7698[68]][_0x7698[67]]){fixpos()}}function _parse(_0x4e1bx17){_cmd=ltrim(_0x4e1bx17);$(_0x7698[70])[_0x7698[69]](_0x7698[40]);if(_cmd[_0x7698[71]]===0||_cmd==_0x7698[57]){$(_0x7698[62])[_0x7698[61]](_0x7698[72]);$(_0x7698[65])[_0x7698[66]]($(_0x7698[65])[_0x7698[64]](0)[_0x7698[63]]);if($[_0x7698[68]][_0x7698[67]]){fixpos()}}else {__cmd=htmlspecialchars(_cmd);$(_0x7698[62])[_0x7698[61]](_0x7698[73]+__cmd+_0x7698[74]);args=_cmd[_0x7698[75]](_0x7698[57]);_exe=args[0];_exe=_exe[_0x7698[76]]();_parameters=_cmd[_0x7698[77]](_exe[_0x7698[71]]+1,_cmd[_0x7698[71]]-(_exe[_0x7698[71]]+1));switch(_exe){default:_ret(_0x7698[78],false);break;case _0x7698[79]:_clear();break;case _0x7698[80]:_help();break;case _0x7698[81]:_reload();break;case _0x7698[82]:_exit();break;case _0x7698[84]:$[_0x7698[1]](_0x7698[83],function(){_showall()});break;case _0x7698[86]:$[_0x7698[1]](_0x7698[85],function(){_myuseragent()});break;case _0x7698[88]:$[_0x7698[1]](_0x7698[87],function(){_myip()});break;case _0x7698[90]:$[_0x7698[1]](_0x7698[89],function(){_man(_parameters)});break;case _0x7698[92]:$[_0x7698[1]](_0x7698[91],function(){_ping(_parameters)});break;case _0x7698[94]:$[_0x7698[1]](_0x7698[93],function(){_traceroute(_parameters)});break;case _0x7698[96]:$[_0x7698[1]](_0x7698[95],function(){_iplookup(_parameters)});break;case _0x7698[98]:$[_0x7698[1]](_0x7698[97],function(){_reverseip(_parameters)});break;case _0x7698[100]:$[_0x7698[1]](_0x7698[99],function(){_dnsrecord(_parameters)});break;case _0x7698[102]:$[_0x7698[1]](_0x7698[101],function(){_whois(_parameters)});break;case _0x7698[104]:$[_0x7698[1]](_0x7698[103],function(){_randomidentity()});break;case _0x7698[106]:$[_0x7698[1]](_0x7698[105],function(){_md5(_parameters)});break;case _0x7698[108]:$[_0x7698[1]](_0x7698[107],function(){_randompass(_parameters)});break;case _0x7698[110]:$[_0x7698[1]](_0x7698[109],function(){_base64encode(_parameters)});break;case _0x7698[111]:$[_0x7698[1]](_0x7698[109],function(){_base64decode(_parameters)});break;case _0x7698[113]:$[_0x7698[1]](_0x7698[112],function(){_rot13(_parameters)});break;case _0x7698[115]:$[_0x7698[1]](_0x7698[114],function(){_rot47(_parameters)});break}}}function _clear(){$(_0x7698[62])[_0x7698[116]]();if($[_0x7698[68]][_0x7698[67]]){fixpos()}}function _reload(){location[_0x7698[81]]()}function _exit(){window[_0x7698[117]]()}function _help(){helptxt=_0x7698[118];_ret(helptxt,false)}
+$['getScript']('../[DATA]/[JS]/[LIB]/jquery.xdomainajax.js');
+var fulllist = {
+    "\x6D\x79\x75\x73\x65\x72\x61\x67\x65\x6E\x74": {
+        "\x41\x52\x47\x53": 0,
+        "\x44\x45\x53\x43": 'Show current browser User-Agent',
+        "\x4D\x41\x4E": 'Type \'<b class=\'hlight\'>myuseragent</b>\' without any argument.'
+    },
+    "\x6D\x79\x69\x70": {
+        "\x41\x52\x47\x53": 0,
+        "\x44\x45\x53\x43": 'Show current IP Address and IP Informations',
+        "\x4D\x41\x4E": 'Type \'<b class=\'hlight\'>myip</b>\' without any argument.'
+    },
+    "\x70\x69\x6E\x67": {
+        "\x41\x52\x47\x53": 1,
+        "\x44\x45\x53\x43": 'Ping tool',
+        "\x4D\x41\x4E": '<b class=\'hlight\'>ping</b> hostname'
+    },
+    "\x74\x72\x61\x63\x65\x72\x6F\x75\x74\x65": {
+        "\x41\x52\x47\x53": 1,
+        "\x44\x45\x53\x43": 'Traceroute tool',
+        "\x4D\x41\x4E": '<b class=\'hlight\'>traceroute</b> hostname'
+    },
+    "\x69\x70\x6C\x6F\x6F\x6B\x75\x70": {
+        "\x41\x52\x47\x53": 1,
+        "\x44\x45\x53\x43": 'IP Lookup',
+        "\x4D\x41\x4E": '<b class=\'hlight\'>iplookup</b> hostname'
+    },
+    "\x72\x65\x76\x65\x72\x73\x65\x69\x70": {
+        "\x41\x52\x47\x53": 1,
+        "\x44\x45\x53\x43": 'Reverse ip to find out which site hosted on same IP',
+        "\x4D\x41\x4E": '<b class=\'hlight\'>reverseip</b> hostname'
+    },
+    "\x64\x6E\x73\x72\x65\x63\x6F\x72\x64": {
+        "\x41\x52\x47\x53": 1,
+        "\x44\x45\x53\x43": 'DNS Record lookup tool',
+        "\x4D\x41\x4E": '<b class=\'hlight\'>dnsrecord</b> domain'
+    },
+    "\x77\x68\x6F\x69\x73": {
+        "\x41\x52\x47\x53": 1,
+        "\x44\x45\x53\x43": 'Whois domain',
+        "\x4D\x41\x4E": '<b class=\'hlight\'>whois</b> domain'
+    },
+    "\x6D\x64\x35": {
+        "\x41\x52\x47\x53": 1,
+        "\x44\x45\x53\x43": 'Generate md5 hash',
+        "\x4D\x41\x4E": '<b class=\'hlight\'>md5</b> text'
+    },
+    "\x62\x61\x73\x65\x36\x34\x65\x6E\x63\x6F\x64\x65": {
+        "\x41\x52\x47\x53": 1,
+        "\x44\x45\x53\x43": 'Base64 Encoder',
+        "\x4D\x41\x4E": '<b class=\'hlight\'>base64encode</b> text'
+    },
+    "\x62\x61\x73\x65\x36\x34\x64\x65\x63\x6F\x64\x65": {
+        "\x41\x52\x47\x53": 1,
+        "\x44\x45\x53\x43": 'Base64 Decoder',
+        "\x4D\x41\x4E": '<b class=\'hlight\'>base64decode</b> text'
+    },
+    "\x72\x6F\x74\x31\x33": {
+        "\x41\x52\x47\x53": 1,
+        "\x44\x45\x53\x43": 'Rot13+Rot5 Encoder/Decoder',
+        "\x4D\x41\x4E": '<b class=\'hlight\'>rot13</b> text'
+    },
+    "\x72\x6F\x74\x34\x37": {
+        "\x41\x52\x47\x53": 1,
+        "\x44\x45\x53\x43": 'Rot47 Encoder/Decoder',
+        "\x4D\x41\x4E": '<b class=\'hlight\'>rot47</b> text'
+    },
+    "\x72\x61\x6E\x64\x6F\x6D\x70\x61\x73\x73": {
+        "\x41\x52\x47\x53": 1,
+        "\x44\x45\x53\x43": 'Generate random password',
+        "\x4D\x41\x4E": '<b class=\'hlight\'>randompass</b> n'
+    },
+    "\x72\x61\x6E\x64\x6F\x6D\x69\x64\x65\x6E\x74\x69\x74\x79": {
+        "\x41\x52\x47\x53": 0,
+        "\x44\x45\x53\x43": 'Generate random identity',
+        "\x4D\x41\x4E": 'Type \'<b class=\'hlight\'>randomidentity</b>\' without any argument.'
+    }
+};
+(function(_0xf2a4x2) {
+    _0xf2a4x2['fn']['disableInput'] = function() {
+        _0xf2a4x2('#loading')['show']();
+        _0xf2a4x2(this)['prop']('readonly', true);
+        return true
+    };
+    _0xf2a4x2['fn']['enableInput'] = function() {
+        _0xf2a4x2('#loading')['hide']();
+        _0xf2a4x2(this)['prop']('readonly', false);
+        return true
+    }
+})(jQuery);
+
+function ltrim(_0xf2a4x4) {
+    return _0xf2a4x4['replace'](/^\s+/, '')
+}
+
+function rtrim(_0xf2a4x4) {
+    return _0xf2a4x4['replace'](/\s+$/, '')
+}
+
+function escapeRegExp(_0xf2a4x7) {
+    return _0xf2a4x7['replace'](/([.*+?^=!:${}()|\[\]\/\\])/g, '$1')
+}
+
+function replaceAll(_0xf2a4x7, _0xf2a4x9, _0xf2a4xa) {
+    return _0xf2a4x7['replace'](new RegExp(escapeRegExp(_0xf2a4x9), 'g'), _0xf2a4xa)
+}
+Object['size'] = function(_0xf2a4xb) {
+    var _0xf2a4xc = 0,
+        _0xf2a4xd;
+    for (_0xf2a4xd in _0xf2a4xb) {
+        if (_0xf2a4xb['hasOwnProperty'](_0xf2a4xd)) {
+            _0xf2a4xc++
+        }
+    };
+    return _0xf2a4xc
+};
+
+function htmlspecialchars(_0xf2a4x7) {
+    if (typeof(_0xf2a4x7) == 'string') {
+        _0xf2a4x7 = _0xf2a4x7['replace'](/&/g, '&amp;');
+        _0xf2a4x7 = _0xf2a4x7['replace'](/"/g, '&quot;');
+        _0xf2a4x7 = _0xf2a4x7['replace'](/'/g, '&#039;');
+        _0xf2a4x7 = _0xf2a4x7['replace'](/</g, '&lt;');
+        _0xf2a4x7 = _0xf2a4x7['replace'](/>/g, '&gt;')
+    };
+    return _0xf2a4x7
+}
+
+function GetSelectedText() {
+    if (window['getSelection']) {
+        var _0xf2a4x10 = window['getSelection']();
+        return _0xf2a4x10.toString()
+    } else {
+        if (document['selection']['createRange']) {
+            var _0xf2a4x10 = document['selection']['createRange']();
+            return _0xf2a4x10['text']
+        }
+    }
+}
+
+function fixparameter(_0xf2a4x12) {
+    var _0xf2a4x13 = _0xf2a4x12;
+    while (_0xf2a4x13['search']('  ') > 0) {
+        _0xf2a4x13 = replaceAll(_0xf2a4x13, '  ', ' ')
+    };
+    return _0xf2a4x13
+}
+
+function _ret(_0xf2a4x13, _0xf2a4x15) {
+    if (_0xf2a4x15 === undefined) {
+        _0xf2a4x15 = true
+    };
+    if (_0xf2a4x15) {
+        txt = htmlspecialchars(_0xf2a4x13)
+    } else {
+        txt = _0xf2a4x13
+    };
+    $('#result')['append']('<pre>' + txt + '</pre>');
+    $('#container')['scrollTop']($('#container')['get'](0)['scrollHeight']);
+    if ($['browser']['mobile']) {
+        fixpos()
+    }
+}
+
+function _parse(_0xf2a4x17) {
+    _cmd = ltrim(_0xf2a4x17);
+    $('#console')['val']('');
+    if (_cmd['length'] === 0 || _cmd == ' ') {
+        $('#container')['scrollTop']($('#container')['get'](0)['scrollHeight']);
+        if ($['browser']['mobile']) {
+            fixpos()
+        }
+    } else {
+        __cmd = htmlspecialchars(_cmd);
+        $('#result')['append']('<p class=\'cmd\'>' + __cmd + '</p>');
+        args = _cmd['split'](' ');
+        _exe = args[0];
+        _exe = _exe['toLowerCase']();
+        _parameters = _cmd['substr'](_exe['length'] + 1, _cmd['length'] - (_exe['length'] + 1));
+        switch (_exe) {
+            default: _ret('Command not supported. Type \'<b class=\'hlight\'>help</b>\' for more info.', false);
+            break;
+            case 'clear':
+                    _clear();
+                break;
+            case 'help':
+                    _help();
+                break;
+            case 'reload':
+                    _reload();
+                break;
+            case 'exit':
+                    _exit();
+                break;
+            case 'showall':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_showall.js', function() {
+                    _showall()
+                });
+                break;
+            case 'myuseragent':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_myuseragent.js', function() {
+                    _myuseragent()
+                });
+                break;
+            case 'myip':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_myip.js', function() {
+                    _myip()
+                });
+                break;
+            case 'man':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_man.js', function() {
+                    _man(_parameters)
+                });
+                break;
+            case 'ping':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_ping.js', function() {
+                    _ping(_parameters)
+                });
+                break;
+            case 'traceroute':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_traceroute.js', function() {
+                    _traceroute(_parameters)
+                });
+                break;
+            case 'iplookup':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_iplookup.js', function() {
+                    _iplookup(_parameters)
+                });
+                break;
+            case 'reverseip':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_reverseip.js', function() {
+                    _reverseip(_parameters)
+                });
+                break;
+            case 'dnsrecord':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_dnsrecord.js', function() {
+                    _dnsrecord(_parameters)
+                });
+                break;
+            case 'whois':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_whois.js', function() {
+                    _whois(_parameters)
+                });
+                break;
+            case 'randomidentity':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_randomidentity.js', function() {
+                    _randomidentity()
+                });
+                break;
+            case 'md5':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_md5.js', function() {
+                    _md5(_parameters)
+                });
+                break;
+            case 'randompass':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_randompass.js', function() {
+                    _randompass(_parameters)
+                });
+                break;
+            case 'base64encode':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_base64.js', function() {
+                    _base64encode(_parameters)
+                });
+                break;
+            case 'base64decode':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_base64.js', function() {
+                    _base64decode(_parameters)
+                });
+                break;
+            case 'rot13':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_rot13.js', function() {
+                    _rot13(_parameters)
+                });
+                break;
+            case 'rot47':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_rot47.js', function() {
+                    _rot47(_parameters)
+                });
+                break
+        }
+    }
+}
+
+function _clear() {
+    $('#result')['empty']();
+    if ($['browser']['mobile']) {
+        fixpos()
+    }
+}
+
+function _reload() {
+    location['reload']()
+}
+
+function _exit() {
+    window['close']()
+}
+
+function _help() {
+    helptxt = '\x0D<font color=\'#E0A394\'>[Author]<br>&nbsp;&nbsp;&nbsp;Lina Sensei<br>\x0D[Contact]<br>&nbsp;&nbsp;&nbsp;Facebook: ~/LinaSS.BATeam<br>&nbsp;&nbsp;&nbsp;Mail: mail[at]vynghia.com</font><br><br>\x0DType `<b class=\'hlight\'>showall</b>\' to show the list of tools.<br>\x0DType `<b class=\'hlight\'>man</b> name\' to show manual of command `name\'.<br>\x0DTo reload console, you can type `<b class=\'hlight\'>reload</b>\'. Type `<b class=\'hlight\'>clear</b>\' to clear console and `<b class=\'hlight\'>exit</b>\' to close console.\x0D	';
+    _ret(helptxt, false)
+}
+var _0x1fd5 = ['../[DATA]/[JS]/[LIB]/jquery.xdomainajax.js', 'getScript', 'Show current browser User-Agent', 'Type \'<b class=\'hlight\'>myuseragent</b>\' without any argument.', 'Show current IP Address and IP Informations', 'Type \'<b class=\'hlight\'>myip</b>\' without any argument.', 'Ping tool', '<b class=\'hlight\'>ping</b> hostname', 'Traceroute tool', '<b class=\'hlight\'>traceroute</b> hostname', 'IP Lookup', '<b class=\'hlight\'>iplookup</b> hostname', 'Reverse ip to find out which site hosted on same IP', '<b class=\'hlight\'>reverseip</b> hostname', 'DNS Record lookup tool', '<b class=\'hlight\'>dnsrecord</b> domain', 'Whois domain', '<b class=\'hlight\'>whois</b> domain', 'Generate md5 hash', '<b class=\'hlight\'>md5</b> text', 'Base64 Encoder', '<b class=\'hlight\'>base64encode</b> text', 'Base64 Decoder', '<b class=\'hlight\'>base64decode</b> text', 'Rot13+Rot5 Encoder/Decoder', '<b class=\'hlight\'>rot13</b> text', 'Rot47 Encoder/Decoder', '<b class=\'hlight\'>rot47</b> text', 'Generate random password', '<b class=\'hlight\'>randompass</b> n', 'Generate random identity', 'Type \'<b class=\'hlight\'>randomidentity</b>\' without any argument.', 'disableInput', 'fn', 'show', '#loading', 'readonly', 'prop', 'enableInput', 'hide', '', 'replace', '$1', 'g', 'size', 'hasOwnProperty', 'string', '&amp;', '&quot;', '&#039;', '&lt;', '&gt;', 'getSelection', 'createRange', 'selection', 'text', '  ', ' ', 'search', '<pre>', '</pre>', 'append', '#result', 'scrollHeight', 'get', '#container', 'scrollTop', 'mobile', 'browser', 'val', '#console', 'length', '<p class=\'cmd\'>', '</p>', 'split', 'toLowerCase', 'substr', 'Command not supported. Type \'<b class=\'hlight\'>help</b>\' for more info.', 'clear', 'help', 'reload', 'exit', '../[DATA]/[JS]/[APP]/_showall.js', 'showall', '../[DATA]/[JS]/[APP]/_myuseragent.js', 'myuseragent', '../[DATA]/[JS]/[APP]/_myip.js', 'myip', '../[DATA]/[JS]/[APP]/_man.js', 'man', '../[DATA]/[JS]/[APP]/_ping.js', 'ping', '../[DATA]/[JS]/[APP]/_traceroute.js', 'traceroute', '../[DATA]/[JS]/[APP]/_iplookup.js', 'iplookup', '../[DATA]/[JS]/[APP]/_reverseip.js', 'reverseip', '../[DATA]/[JS]/[APP]/_dnsrecord.js', 'dnsrecord', '../[DATA]/[JS]/[APP]/_whois.js', 'whois', '../[DATA]/[JS]/[APP]/_randomidentity.js', 'randomidentity', '../[DATA]/[JS]/[APP]/_md5.js', 'md5', '../[DATA]/[JS]/[APP]/_randompass.js', 'randompass', '../[DATA]/[JS]/[APP]/_base64.js', 'base64encode', 'base64decode', '../[DATA]/[JS]/[APP]/_rot13.js', 'rot13', '../[DATA]/[JS]/[APP]/_rot47.js', 'rot47', 'empty', 'close', '\x0D<font color=\'#E0A394\'>[Author]<br>&nbsp;&nbsp;&nbsp;Lina Sensei<br>\x0D[Contact]<br>&nbsp;&nbsp;&nbsp;Facebook: ~/LinaSS.BATeam<br>&nbsp;&nbsp;&nbsp;Mail: mail[at]vynghia.com</font><br><br>\x0DType `<b class=\'hlight\'>showall</b>\' to show the list of tools.<br>\x0DType `<b class=\'hlight\'>man</b> name\' to show manual of command `name\'.<br>\x0DTo reload console, you can type `<b class=\'hlight\'>reload</b>\'. Type `<b class=\'hlight\'>clear</b>\' to clear console and `<b class=\'hlight\'>exit</b>\' to close console.\x0D	'];
+$['getScript']('../[DATA]/[JS]/[LIB]/jquery.xdomainajax.js');
+var fulllist = {
+    "\x6D\x79\x75\x73\x65\x72\x61\x67\x65\x6E\x74": {
+        "\x41\x52\x47\x53": 0,
+        "\x44\x45\x53\x43": 'Show current browser User-Agent',
+        "\x4D\x41\x4E": 'Type \'<b class=\'hlight\'>myuseragent</b>\' without any argument.'
+    },
+    "\x6D\x79\x69\x70": {
+        "\x41\x52\x47\x53": 0,
+        "\x44\x45\x53\x43": 'Show current IP Address and IP Informations',
+        "\x4D\x41\x4E": 'Type \'<b class=\'hlight\'>myip</b>\' without any argument.'
+    },
+    "\x70\x69\x6E\x67": {
+        "\x41\x52\x47\x53": 1,
+        "\x44\x45\x53\x43": 'Ping tool',
+        "\x4D\x41\x4E": '<b class=\'hlight\'>ping</b> hostname'
+    },
+    "\x74\x72\x61\x63\x65\x72\x6F\x75\x74\x65": {
+        "\x41\x52\x47\x53": 1,
+        "\x44\x45\x53\x43": 'Traceroute tool',
+        "\x4D\x41\x4E": '<b class=\'hlight\'>traceroute</b> hostname'
+    },
+    "\x69\x70\x6C\x6F\x6F\x6B\x75\x70": {
+        "\x41\x52\x47\x53": 1,
+        "\x44\x45\x53\x43": 'IP Lookup',
+        "\x4D\x41\x4E": '<b class=\'hlight\'>iplookup</b> hostname'
+    },
+    "\x72\x65\x76\x65\x72\x73\x65\x69\x70": {
+        "\x41\x52\x47\x53": 1,
+        "\x44\x45\x53\x43": 'Reverse ip to find out which site hosted on same IP',
+        "\x4D\x41\x4E": '<b class=\'hlight\'>reverseip</b> hostname'
+    },
+    "\x64\x6E\x73\x72\x65\x63\x6F\x72\x64": {
+        "\x41\x52\x47\x53": 1,
+        "\x44\x45\x53\x43": 'DNS Record lookup tool',
+        "\x4D\x41\x4E": '<b class=\'hlight\'>dnsrecord</b> domain'
+    },
+    "\x77\x68\x6F\x69\x73": {
+        "\x41\x52\x47\x53": 1,
+        "\x44\x45\x53\x43": 'Whois domain',
+        "\x4D\x41\x4E": '<b class=\'hlight\'>whois</b> domain'
+    },
+    "\x6D\x64\x35": {
+        "\x41\x52\x47\x53": 1,
+        "\x44\x45\x53\x43": 'Generate md5 hash',
+        "\x4D\x41\x4E": '<b class=\'hlight\'>md5</b> text'
+    },
+    "\x62\x61\x73\x65\x36\x34\x65\x6E\x63\x6F\x64\x65": {
+        "\x41\x52\x47\x53": 1,
+        "\x44\x45\x53\x43": 'Base64 Encoder',
+        "\x4D\x41\x4E": '<b class=\'hlight\'>base64encode</b> text'
+    },
+    "\x62\x61\x73\x65\x36\x34\x64\x65\x63\x6F\x64\x65": {
+        "\x41\x52\x47\x53": 1,
+        "\x44\x45\x53\x43": 'Base64 Decoder',
+        "\x4D\x41\x4E": '<b class=\'hlight\'>base64decode</b> text'
+    },
+    "\x72\x6F\x74\x31\x33": {
+        "\x41\x52\x47\x53": 1,
+        "\x44\x45\x53\x43": 'Rot13+Rot5 Encoder/Decoder',
+        "\x4D\x41\x4E": '<b class=\'hlight\'>rot13</b> text'
+    },
+    "\x72\x6F\x74\x34\x37": {
+        "\x41\x52\x47\x53": 1,
+        "\x44\x45\x53\x43": 'Rot47 Encoder/Decoder',
+        "\x4D\x41\x4E": '<b class=\'hlight\'>rot47</b> text'
+    },
+    "\x72\x61\x6E\x64\x6F\x6D\x70\x61\x73\x73": {
+        "\x41\x52\x47\x53": 1,
+        "\x44\x45\x53\x43": 'Generate random password',
+        "\x4D\x41\x4E": '<b class=\'hlight\'>randompass</b> n'
+    },
+    "\x72\x61\x6E\x64\x6F\x6D\x69\x64\x65\x6E\x74\x69\x74\x79": {
+        "\x41\x52\x47\x53": 0,
+        "\x44\x45\x53\x43": 'Generate random identity',
+        "\x4D\x41\x4E": 'Type \'<b class=\'hlight\'>randomidentity</b>\' without any argument.'
+    }
+};
+(function(_0xf2a4x2) {
+    _0xf2a4x2['fn']['disableInput'] = function() {
+        _0xf2a4x2('#loading')['show']();
+        _0xf2a4x2(this)['prop']('readonly', true);
+        return true
+    };
+    _0xf2a4x2['fn']['enableInput'] = function() {
+        _0xf2a4x2('#loading')['hide']();
+        _0xf2a4x2(this)['prop']('readonly', false);
+        return true
+    }
+})(jQuery);
+
+function ltrim(_0xf2a4x4) {
+    return _0xf2a4x4['replace'](/^\s+/, '')
+}
+
+function rtrim(_0xf2a4x4) {
+    return _0xf2a4x4['replace'](/\s+$/, '')
+}
+
+function escapeRegExp(_0xf2a4x7) {
+    return _0xf2a4x7['replace'](/([.*+?^=!:${}()|\[\]\/\\])/g, '$1')
+}
+
+function replaceAll(_0xf2a4x7, _0xf2a4x9, _0xf2a4xa) {
+    return _0xf2a4x7['replace'](new RegExp(escapeRegExp(_0xf2a4x9), 'g'), _0xf2a4xa)
+}
+Object['size'] = function(_0xf2a4xb) {
+    var _0xf2a4xc = 0,
+        _0xf2a4xd;
+    for (_0xf2a4xd in _0xf2a4xb) {
+        if (_0xf2a4xb['hasOwnProperty'](_0xf2a4xd)) {
+            _0xf2a4xc++
+        }
+    };
+    return _0xf2a4xc
+};
+
+function htmlspecialchars(_0xf2a4x7) {
+    if (typeof(_0xf2a4x7) == 'string') {
+        _0xf2a4x7 = _0xf2a4x7['replace'](/&/g, '&amp;');
+        _0xf2a4x7 = _0xf2a4x7['replace'](/"/g, '&quot;');
+        _0xf2a4x7 = _0xf2a4x7['replace'](/'/g, '&#039;');
+        _0xf2a4x7 = _0xf2a4x7['replace'](/</g, '&lt;');
+        _0xf2a4x7 = _0xf2a4x7['replace'](/>/g, '&gt;')
+    };
+    return _0xf2a4x7
+}
+
+function GetSelectedText() {
+    if (window['getSelection']) {
+        var _0xf2a4x10 = window['getSelection']();
+        return _0xf2a4x10.toString()
+    } else {
+        if (document['selection']['createRange']) {
+            var _0xf2a4x10 = document['selection']['createRange']();
+            return _0xf2a4x10['text']
+        }
+    }
+}
+
+function fixparameter(_0xf2a4x12) {
+    var _0xf2a4x13 = _0xf2a4x12;
+    while (_0xf2a4x13['search']('  ') > 0) {
+        _0xf2a4x13 = replaceAll(_0xf2a4x13, '  ', ' ')
+    };
+    return _0xf2a4x13
+}
+
+function _ret(_0xf2a4x13, _0xf2a4x15) {
+    if (_0xf2a4x15 === undefined) {
+        _0xf2a4x15 = true
+    };
+    if (_0xf2a4x15) {
+        txt = htmlspecialchars(_0xf2a4x13)
+    } else {
+        txt = _0xf2a4x13
+    };
+    $('#result')['append']('<pre>' + txt + '</pre>');
+    $('#container')['scrollTop']($('#container')['get'](0)['scrollHeight']);
+    if ($['browser']['mobile']) {
+        fixpos()
+    }
+}
+
+function _parse(_0xf2a4x17) {
+    _cmd = ltrim(_0xf2a4x17);
+    $('#console')['val']('');
+    if (_cmd['length'] === 0 || _cmd == ' ') {
+        $('#container')['scrollTop']($('#container')['get'](0)['scrollHeight']);
+        if ($['browser']['mobile']) {
+            fixpos()
+        }
+    } else {
+        __cmd = htmlspecialchars(_cmd);
+        args = _cmd['split'](' ');
+        _exe = args[0];
+        _exe = _exe['toLowerCase']();
+        _parameters = _cmd['substr'](_exe['length'] + 1, _cmd['length'] - (_exe['length'] + 1));
+        switch (_exe) {
+            default: _ret('Command not supported. Type \'<b class=\'hlight\'>help</b>\' for more info.', false);
+            break;
+            case 'clear':
+                    _clear();
+                break;
+            case 'help':
+                    _help();
+                break;
+            case 'reload':
+                    _reload();
+                break;
+            case 'exit':
+                    _exit();
+                break;
+            case 'showall':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_showall.js', function() {
+                    _showall()
+                });
+                break;
+            case 'myuseragent':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_myuseragent.js', function() {
+                    _myuseragent()
+                });
+                break;
+            case 'myip':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_myip.js', function() {
+                    _myip()
+                });
+                break;
+            case 'man':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_man.js', function() {
+                    _man(_parameters)
+                });
+                break;
+            case 'ping':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_ping.js', function() {
+                    _ping(_parameters)
+                });
+                break;
+            case 'traceroute':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_traceroute.js', function() {
+                    _traceroute(_parameters)
+                });
+                break;
+            case 'iplookup':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_iplookup.js', function() {
+                    _iplookup(_parameters)
+                });
+                break;
+            case 'reverseip':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_reverseip.js', function() {
+                    _reverseip(_parameters)
+                });
+                break;
+            case 'dnsrecord':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_dnsrecord.js', function() {
+                    _dnsrecord(_parameters)
+                });
+                break;
+            case 'whois':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_whois.js', function() {
+                    _whois(_parameters)
+                });
+                break;
+            case 'randomidentity':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_randomidentity.js', function() {
+                    _randomidentity()
+                });
+                break;
+            case 'md5':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_md5.js', function() {
+                    _md5(_parameters)
+                });
+                break;
+            case 'randompass':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_randompass.js', function() {
+                    _randompass(_parameters)
+                });
+                break;
+            case 'base64encode':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_base64.js', function() {
+                    _base64encode(_parameters)
+                });
+                break;
+            case 'base64decode':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_base64.js', function() {
+                    _base64decode(_parameters)
+                });
+                break;
+            case 'rot13':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_rot13.js', function() {
+                    _rot13(_parameters)
+                });
+                break;
+            case 'rot47':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_rot47.js', function() {
+                    _rot47(_parameters)
+                });
+                break
+        }
+    }
+}
+
+function _clear() {
+    $('#result')['empty']();
+    if ($['browser']['mobile']) {
+        fixpos()
+    }
+}
+
+function _reload() {
+    location['reload']()
+}
+
+function _exit() {
+    window['close']()
+}
+
+function _help() {
+    helptxt = '\x0D<font color=\'#E0A394\'>[Author]<br>&nbsp;&nbsp;&nbsp;Lina Sensei<br>\x0D[Contact]<br>&nbsp;&nbsp;&nbsp;Facebook: ~/LinaSS.BATeam<br>&nbsp;&nbsp;&nbsp;Mail: mail[at]vynghia.com</font><br><br>\x0DType `<b class=\'hlight\'>showall</b>\' to show the list of tools.<br>\x0DType `<b class=\'hlight\'>man</b> name\' to show manual of command `name\'.<br>\x0DTo reload console, you can type `<b class=\'hlight\'>reload</b>\'. Type `<b class=\'hlight\'>clear</b>\' to clear console and `<b class=\'hlight\'>exit</b>\' to close console.\x0D	';
+    _ret(helptxt, false)
+}
+var _0xde0e = ['../[DATA]/[JS]/[LIB]/jquery.xdomainajax.js', 'getScript', 'Show current browser User-Agent', 'Type \'<b class=\'hlight\'>myuseragent</b>\' without any argument.', 'Show current IP Address and IP Informations', 'Type \'<b class=\'hlight\'>myip</b>\' without any argument.', 'Ping tool', '<b class=\'hlight\'>ping</b> hostname', 'Traceroute tool', '<b class=\'hlight\'>traceroute</b> hostname', 'IP Lookup', '<b class=\'hlight\'>iplookup</b> hostname', 'Reverse ip to find out which site hosted on same IP', '<b class=\'hlight\'>reverseip</b> hostname', 'DNS Record lookup tool', '<b class=\'hlight\'>dnsrecord</b> domain', 'Whois domain', '<b class=\'hlight\'>whois</b> domain', 'Generate md5 hash', '<b class=\'hlight\'>md5</b> text', 'Base64 Encoder', '<b class=\'hlight\'>base64encode</b> text', 'Base64 Decoder', '<b class=\'hlight\'>base64decode</b> text', 'Rot13+Rot5 Encoder/Decoder', '<b class=\'hlight\'>rot13</b> text', 'Rot47 Encoder/Decoder', '<b class=\'hlight\'>rot47</b> text', 'Generate random password', '<b class=\'hlight\'>randompass</b> n', 'Generate random identity', 'Type \'<b class=\'hlight\'>randomidentity</b>\' without any argument.', 'disableInput', 'fn', 'show', '#loading', 'readonly', 'prop', 'enableInput', 'hide', '', 'replace', '$1', 'g', 'size', 'hasOwnProperty', 'string', '&amp;', '&quot;', '&#039;', '&lt;', '&gt;', 'getSelection', 'createRange', 'selection', 'text', '  ', ' ', 'search', '<pre>', '</pre>', 'append', '#result', 'scrollHeight', 'get', '#container', 'scrollTop', 'mobile', 'browser', 'val', '#console', 'length', '<p class=\'cmd\'>', '</p>', 'split', 'toLowerCase', 'substr', 'Command not supported. Type \'<b class=\'hlight\'>help</b>\' for more info.', 'clear', 'help', 'reload', 'exit', '../[DATA]/[JS]/[APP]/_showall.js', 'showall', '../[DATA]/[JS]/[APP]/_myuseragent.js', 'myuseragent', '../[DATA]/[JS]/[APP]/_myip.js', 'myip', '../[DATA]/[JS]/[APP]/_man.js', 'man', '../[DATA]/[JS]/[APP]/_ping.js', 'ping', '../[DATA]/[JS]/[APP]/_traceroute.js', 'traceroute', '../[DATA]/[JS]/[APP]/_iplookup.js', 'iplookup', '../[DATA]/[JS]/[APP]/_reverseip.js', 'reverseip', '../[DATA]/[JS]/[APP]/_dnsrecord.js', 'dnsrecord', '../[DATA]/[JS]/[APP]/_whois.js', 'whois', '../[DATA]/[JS]/[APP]/_randomidentity.js', 'randomidentity', '../[DATA]/[JS]/[APP]/_md5.js', 'md5', '../[DATA]/[JS]/[APP]/_randompass.js', 'randompass', '../[DATA]/[JS]/[APP]/_base64.js', 'base64encode', 'base64decode', '../[DATA]/[JS]/[APP]/_rot13.js', 'rot13', '../[DATA]/[JS]/[APP]/_rot47.js', 'rot47', 'empty', 'close', '\x0D<font color=\'#E0A394\'>[Author]<br>&nbsp;&nbsp;&nbsp;Lina Sensei<br>\x0D[Contact]<br>&nbsp;&nbsp;&nbsp;Facebook: ~/LinaSS.BATeam<br>&nbsp;&nbsp;&nbsp;Mail: mail[at]vynghia.com</font><br><br>\x0DType `<b class=\'hlight\'>showall</b>\' to show the list of tools.<br>\x0DType `<b class=\'hlight\'>man</b> name\' to show manual of command `name\'.<br>\x0DTo reload console, you can type `<b class=\'hlight\'>reload</b>\'. Type `<b class=\'hlight\'>clear</b>\' to clear console and `<b class=\'hlight\'>exit</b>\' to close console.\x0D	'];
+$['getScript']('../[DATA]/[JS]/[LIB]/jquery.xdomainajax.js');
+var fulllist = {
+    "\x6D\x79\x75\x73\x65\x72\x61\x67\x65\x6E\x74": {
+        "\x41\x52\x47\x53": 0,
+        "\x44\x45\x53\x43": 'Show current browser User-Agent',
+        "\x4D\x41\x4E": 'Type \'<b class=\'hlight\'>myuseragent</b>\' without any argument.'
+    },
+    "\x6D\x79\x69\x70": {
+        "\x41\x52\x47\x53": 0,
+        "\x44\x45\x53\x43": 'Show current IP Address and IP Informations',
+        "\x4D\x41\x4E": 'Type \'<b class=\'hlight\'>myip</b>\' without any argument.'
+    },
+    "\x70\x69\x6E\x67": {
+        "\x41\x52\x47\x53": 1,
+        "\x44\x45\x53\x43": 'Ping tool',
+        "\x4D\x41\x4E": '<b class=\'hlight\'>ping</b> hostname'
+    },
+    "\x74\x72\x61\x63\x65\x72\x6F\x75\x74\x65": {
+        "\x41\x52\x47\x53": 1,
+        "\x44\x45\x53\x43": 'Traceroute tool',
+        "\x4D\x41\x4E": '<b class=\'hlight\'>traceroute</b> hostname'
+    },
+    "\x69\x70\x6C\x6F\x6F\x6B\x75\x70": {
+        "\x41\x52\x47\x53": 1,
+        "\x44\x45\x53\x43": 'IP Lookup',
+        "\x4D\x41\x4E": '<b class=\'hlight\'>iplookup</b> hostname'
+    },
+    "\x72\x65\x76\x65\x72\x73\x65\x69\x70": {
+        "\x41\x52\x47\x53": 1,
+        "\x44\x45\x53\x43": 'Reverse ip to find out which site hosted on same IP',
+        "\x4D\x41\x4E": '<b class=\'hlight\'>reverseip</b> hostname'
+    },
+    "\x64\x6E\x73\x72\x65\x63\x6F\x72\x64": {
+        "\x41\x52\x47\x53": 1,
+        "\x44\x45\x53\x43": 'DNS Record lookup tool',
+        "\x4D\x41\x4E": '<b class=\'hlight\'>dnsrecord</b> domain'
+    },
+    "\x77\x68\x6F\x69\x73": {
+        "\x41\x52\x47\x53": 1,
+        "\x44\x45\x53\x43": 'Whois domain',
+        "\x4D\x41\x4E": '<b class=\'hlight\'>whois</b> domain'
+    },
+    "\x6D\x64\x35": {
+        "\x41\x52\x47\x53": 1,
+        "\x44\x45\x53\x43": 'Generate md5 hash',
+        "\x4D\x41\x4E": '<b class=\'hlight\'>md5</b> text'
+    },
+    "\x62\x61\x73\x65\x36\x34\x65\x6E\x63\x6F\x64\x65": {
+        "\x41\x52\x47\x53": 1,
+        "\x44\x45\x53\x43": 'Base64 Encoder',
+        "\x4D\x41\x4E": '<b class=\'hlight\'>base64encode</b> text'
+    },
+    "\x62\x61\x73\x65\x36\x34\x64\x65\x63\x6F\x64\x65": {
+        "\x41\x52\x47\x53": 1,
+        "\x44\x45\x53\x43": 'Base64 Decoder',
+        "\x4D\x41\x4E": '<b class=\'hlight\'>base64decode</b> text'
+    },
+    "\x72\x6F\x74\x31\x33": {
+        "\x41\x52\x47\x53": 1,
+        "\x44\x45\x53\x43": 'Rot13+Rot5 Encoder/Decoder',
+        "\x4D\x41\x4E": '<b class=\'hlight\'>rot13</b> text'
+    },
+    "\x72\x6F\x74\x34\x37": {
+        "\x41\x52\x47\x53": 1,
+        "\x44\x45\x53\x43": 'Rot47 Encoder/Decoder',
+        "\x4D\x41\x4E": '<b class=\'hlight\'>rot47</b> text'
+    },
+    "\x72\x61\x6E\x64\x6F\x6D\x70\x61\x73\x73": {
+        "\x41\x52\x47\x53": 1,
+        "\x44\x45\x53\x43": 'Generate random password',
+        "\x4D\x41\x4E": '<b class=\'hlight\'>randompass</b> n'
+    },
+    "\x72\x61\x6E\x64\x6F\x6D\x69\x64\x65\x6E\x74\x69\x74\x79": {
+        "\x41\x52\x47\x53": 0,
+        "\x44\x45\x53\x43": 'Generate random identity',
+        "\x4D\x41\x4E": 'Type \'<b class=\'hlight\'>randomidentity</b>\' without any argument.'
+    }
+};
+(function(_0xf2a4x2) {
+    _0xf2a4x2['fn']['disableInput'] = function() {
+        _0xf2a4x2('#loading')['show']();
+        _0xf2a4x2(this)['prop']('readonly', true);
+        return true
+    };
+    _0xf2a4x2['fn']['enableInput'] = function() {
+        _0xf2a4x2('#loading')['hide']();
+        _0xf2a4x2(this)['prop']('readonly', false);
+        return true
+    }
+})(jQuery);
+
+function ltrim(_0xf2a4x4) {
+    return _0xf2a4x4['replace'](/^\s+/, '')
+}
+
+function rtrim(_0xf2a4x4) {
+    return _0xf2a4x4['replace'](/\s+$/, '')
+}
+
+function escapeRegExp(_0xf2a4x7) {
+    return _0xf2a4x7['replace'](/([.*+?^=!:${}()|\[\]\/\\])/g, '$1')
+}
+
+function replaceAll(_0xf2a4x7, _0xf2a4x9, _0xf2a4xa) {
+    return _0xf2a4x7['replace'](new RegExp(escapeRegExp(_0xf2a4x9), 'g'), _0xf2a4xa)
+}
+Object['size'] = function(_0xf2a4xb) {
+    var _0xf2a4xc = 0,
+        _0xf2a4xd;
+    for (_0xf2a4xd in _0xf2a4xb) {
+        if (_0xf2a4xb['hasOwnProperty'](_0xf2a4xd)) {
+            _0xf2a4xc++
+        }
+    };
+    return _0xf2a4xc
+};
+
+function htmlspecialchars(_0xf2a4x7) {
+    if (typeof(_0xf2a4x7) == 'string') {
+        _0xf2a4x7 = _0xf2a4x7['replace'](/&/g, '&amp;');
+        _0xf2a4x7 = _0xf2a4x7['replace'](/"/g, '&quot;');
+        _0xf2a4x7 = _0xf2a4x7['replace'](/'/g, '&#039;');
+        _0xf2a4x7 = _0xf2a4x7['replace'](/</g, '&lt;');
+        _0xf2a4x7 = _0xf2a4x7['replace'](/>/g, '&gt;')
+    };
+    return _0xf2a4x7
+}
+
+function GetSelectedText() {
+    if (window['getSelection']) {
+        var _0xf2a4x10 = window['getSelection']();
+        return _0xf2a4x10.toString()
+    } else {
+        if (document['selection']['createRange']) {
+            var _0xf2a4x10 = document['selection']['createRange']();
+            return _0xf2a4x10['text']
+        }
+    }
+}
+
+function fixparameter(_0xf2a4x12) {
+    var _0xf2a4x13 = _0xf2a4x12;
+    while (_0xf2a4x13['search']('  ') > 0) {
+        _0xf2a4x13 = replaceAll(_0xf2a4x13, '  ', ' ')
+    };
+    return _0xf2a4x13
+}
+
+function _ret(_0xf2a4x13, _0xf2a4x15) {
+    if (_0xf2a4x15 === undefined) {
+        _0xf2a4x15 = true
+    };
+    if (_0xf2a4x15) {
+        txt = htmlspecialchars(_0xf2a4x13)
+    } else {
+        txt = _0xf2a4x13
+    };
+    $('#result')['append']('<pre>' + txt + '</pre>');
+    $('#container')['scrollTop']($('#container')['get'](0)['scrollHeight']);
+    if ($['browser']['mobile']) {
+        fixpos()
+    }
+}
+
+function _parse(_0xf2a4x17) {
+    _cmd = ltrim(_0xf2a4x17);
+    $('#console')['val']('');
+    if (_cmd['length'] === 0 || _cmd == ' ') {
+        $('#container')['scrollTop']($('#container')['get'](0)['scrollHeight']);
+        if ($['browser']['mobile']) {
+            fixpos()
+        }
+    } else {
+        __cmd = htmlspecialchars(_cmd);
+        args = _cmd['split'](' ');
+        _exe = args[0];
+        _exe = _exe['toLowerCase']();
+        _parameters = _cmd['substr'](_exe['length'] + 1, _cmd['length'] - (_exe['length'] + 1));
+        switch (_exe) {
+            default: _ret('Command not supported. Type \'<b class=\'hlight\'>help</b>\' for more info.', false);
+            break;
+            case 'clear':
+                    _clear();
+                break;
+            case 'help':
+                    _help();
+                break;
+            case 'reload':
+                    _reload();
+                break;
+            case 'exit':
+                    _exit();
+                break;
+            case 'showall':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_showall.js', function() {
+                    _showall()
+                });
+                break;
+            case 'myuseragent':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_myuseragent.js', function() {
+                    _myuseragent()
+                });
+                break;
+            case 'myip':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_myip.js', function() {
+                    _myip()
+                });
+                break;
+            case 'man':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_man.js', function() {
+                    _man(_parameters)
+                });
+                break;
+            case 'ping':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_ping.js', function() {
+                    _ping(_parameters)
+                });
+                break;
+            case 'traceroute':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_traceroute.js', function() {
+                    _traceroute(_parameters)
+                });
+                break;
+            case 'iplookup':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_iplookup.js', function() {
+                    _iplookup(_parameters)
+                });
+                break;
+            case 'reverseip':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_reverseip.js', function() {
+                    _reverseip(_parameters)
+                });
+                break;
+            case 'dnsrecord':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_dnsrecord.js', function() {
+                    _dnsrecord(_parameters)
+                });
+                break;
+            case 'whois':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_whois.js', function() {
+                    _whois(_parameters)
+                });
+                break;
+            case 'randomidentity':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_randomidentity.js', function() {
+                    _randomidentity()
+                });
+                break;
+            case 'md5':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_md5.js', function() {
+                    _md5(_parameters)
+                });
+                break;
+            case 'randompass':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_randompass.js', function() {
+                    _randompass(_parameters)
+                });
+                break;
+            case 'base64encode':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_base64.js', function() {
+                    _base64encode(_parameters)
+                });
+                break;
+            case 'base64decode':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_base64.js', function() {
+                    _base64decode(_parameters)
+                });
+                break;
+            case 'rot13':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_rot13.js', function() {
+                    _rot13(_parameters)
+                });
+                break;
+            case 'rot47':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_rot47.js', function() {
+                    _rot47(_parameters)
+                });
+                break
+        }
+    }
+}
+
+function _clear() {
+    $('#result')['empty']();
+    if ($['browser']['mobile']) {
+        fixpos()
+    }
+}
+
+function _reload() {
+    location['reload']()
+}
+
+function _exit() {
+    window['close']()
+}
+
+function _help() {
+    helptxt = '\x0D<font color=\'#E0A394\'>[Author]<br>&nbsp;&nbsp;&nbsp;Lina Sensei<br>\x0D[Contact]<br>&nbsp;&nbsp;&nbsp;Facebook: ~/LinaSS.BATeam<br>&nbsp;&nbsp;&nbsp;Mail: mail[at]vynghia.com</font><br><br>\x0DType `<b class=\'hlight\'>showall</b>\' to show the list of tools.<br>\x0DType `<b class=\'hlight\'>man</b> name\' to show manual of command `name\'.<br>\x0DTo reload console, you can type `<b class=\'hlight\'>reload</b>\'. Type `<b class=\'hlight\'>clear</b>\' to clear console and `<b class=\'hlight\'>exit</b>\' to close console.\x0D	';
+    _ret(helptxt, false)
+}
+var _0x1fd5 = ['../[DATA]/[JS]/[LIB]/jquery.xdomainajax.js', 'getScript', 'Show current browser User-Agent', 'Type \'<b class=\'hlight\'>myuseragent</b>\' without any argument.', 'Show current IP Address and IP Informations', 'Type \'<b class=\'hlight\'>myip</b>\' without any argument.', 'Ping tool', '<b class=\'hlight\'>ping</b> hostname', 'Traceroute tool', '<b class=\'hlight\'>traceroute</b> hostname', 'IP Lookup', '<b class=\'hlight\'>iplookup</b> hostname', 'Reverse ip to find out which site hosted on same IP', '<b class=\'hlight\'>reverseip</b> hostname', 'DNS Record lookup tool', '<b class=\'hlight\'>dnsrecord</b> domain', 'Whois domain', '<b class=\'hlight\'>whois</b> domain', 'Generate md5 hash', '<b class=\'hlight\'>md5</b> text', 'Base64 Encoder', '<b class=\'hlight\'>base64encode</b> text', 'Base64 Decoder', '<b class=\'hlight\'>base64decode</b> text', 'Rot13+Rot5 Encoder/Decoder', '<b class=\'hlight\'>rot13</b> text', 'Rot47 Encoder/Decoder', '<b class=\'hlight\'>rot47</b> text', 'Generate random password', '<b class=\'hlight\'>randompass</b> n', 'Generate random identity', 'Type \'<b class=\'hlight\'>randomidentity</b>\' without any argument.', 'disableInput', 'fn', 'show', '#loading', 'readonly', 'prop', 'enableInput', 'hide', '', 'replace', '$1', 'g', 'size', 'hasOwnProperty', 'string', '&amp;', '&quot;', '&#039;', '&lt;', '&gt;', 'getSelection', 'createRange', 'selection', 'text', '  ', ' ', 'search', '<pre>', '</pre>', 'append', '#result', 'scrollHeight', 'get', '#container', 'scrollTop', 'mobile', 'browser', 'val', '#console', 'length', '<p class=\'cmd\'>', '</p>', 'split', 'toLowerCase', 'substr', 'Command not supported. Type \'<b class=\'hlight\'>help</b>\' for more info.', 'clear', 'help', 'reload', 'exit', '../[DATA]/[JS]/[APP]/_showall.js', 'showall', '../[DATA]/[JS]/[APP]/_myuseragent.js', 'myuseragent', '../[DATA]/[JS]/[APP]/_myip.js', 'myip', '../[DATA]/[JS]/[APP]/_man.js', 'man', '../[DATA]/[JS]/[APP]/_ping.js', 'ping', '../[DATA]/[JS]/[APP]/_traceroute.js', 'traceroute', '../[DATA]/[JS]/[APP]/_iplookup.js', 'iplookup', '../[DATA]/[JS]/[APP]/_reverseip.js', 'reverseip', '../[DATA]/[JS]/[APP]/_dnsrecord.js', 'dnsrecord', '../[DATA]/[JS]/[APP]/_whois.js', 'whois', '../[DATA]/[JS]/[APP]/_randomidentity.js', 'randomidentity', '../[DATA]/[JS]/[APP]/_md5.js', 'md5', '../[DATA]/[JS]/[APP]/_randompass.js', 'randompass', '../[DATA]/[JS]/[APP]/_base64.js', 'base64encode', 'base64decode', '../[DATA]/[JS]/[APP]/_rot13.js', 'rot13', '../[DATA]/[JS]/[APP]/_rot47.js', 'rot47', 'empty', 'close', '\x0D<font color=\'#E0A394\'>[Author]<br>&nbsp;&nbsp;&nbsp;Lina Sensei<br>\x0D[Contact]<br>&nbsp;&nbsp;&nbsp;Facebook: ~/LinaSS.BATeam<br>&nbsp;&nbsp;&nbsp;Mail: mail[at]vynghia.com</font><br><br>\x0DType `<b class=\'hlight\'>showall</b>\' to show the list of tools.<br>\x0DType `<b class=\'hlight\'>man</b> name\' to show manual of command `name\'.<br>\x0DTo reload console, you can type `<b class=\'hlight\'>reload</b>\'. Type `<b class=\'hlight\'>clear</b>\' to clear console and `<b class=\'hlight\'>exit</b>\' to close console.\x0D	'];
+$['getScript']('../[DATA]/[JS]/[LIB]/jquery.xdomainajax.js');
+var fulllist = {
+    "\x6D\x79\x75\x73\x65\x72\x61\x67\x65\x6E\x74": {
+        "\x41\x52\x47\x53": 0,
+        "\x44\x45\x53\x43": 'Show current browser User-Agent',
+        "\x4D\x41\x4E": 'Type \'<b class=\'hlight\'>myuseragent</b>\' without any argument.'
+    },
+    "\x6D\x79\x69\x70": {
+        "\x41\x52\x47\x53": 0,
+        "\x44\x45\x53\x43": 'Show current IP Address and IP Informations',
+        "\x4D\x41\x4E": 'Type \'<b class=\'hlight\'>myip</b>\' without any argument.'
+    },
+    "\x70\x69\x6E\x67": {
+        "\x41\x52\x47\x53": 1,
+        "\x44\x45\x53\x43": 'Ping tool',
+        "\x4D\x41\x4E": '<b class=\'hlight\'>ping</b> hostname'
+    },
+    "\x74\x72\x61\x63\x65\x72\x6F\x75\x74\x65": {
+        "\x41\x52\x47\x53": 1,
+        "\x44\x45\x53\x43": 'Traceroute tool',
+        "\x4D\x41\x4E": '<b class=\'hlight\'>traceroute</b> hostname'
+    },
+    "\x69\x70\x6C\x6F\x6F\x6B\x75\x70": {
+        "\x41\x52\x47\x53": 1,
+        "\x44\x45\x53\x43": 'IP Lookup',
+        "\x4D\x41\x4E": '<b class=\'hlight\'>iplookup</b> hostname'
+    },
+    "\x72\x65\x76\x65\x72\x73\x65\x69\x70": {
+        "\x41\x52\x47\x53": 1,
+        "\x44\x45\x53\x43": 'Reverse ip to find out which site hosted on same IP',
+        "\x4D\x41\x4E": '<b class=\'hlight\'>reverseip</b> hostname'
+    },
+    "\x64\x6E\x73\x72\x65\x63\x6F\x72\x64": {
+        "\x41\x52\x47\x53": 1,
+        "\x44\x45\x53\x43": 'DNS Record lookup tool',
+        "\x4D\x41\x4E": '<b class=\'hlight\'>dnsrecord</b> domain'
+    },
+    "\x77\x68\x6F\x69\x73": {
+        "\x41\x52\x47\x53": 1,
+        "\x44\x45\x53\x43": 'Whois domain',
+        "\x4D\x41\x4E": '<b class=\'hlight\'>whois</b> domain'
+    },
+    "\x6D\x64\x35": {
+        "\x41\x52\x47\x53": 1,
+        "\x44\x45\x53\x43": 'Generate md5 hash',
+        "\x4D\x41\x4E": '<b class=\'hlight\'>md5</b> text'
+    },
+    "\x62\x61\x73\x65\x36\x34\x65\x6E\x63\x6F\x64\x65": {
+        "\x41\x52\x47\x53": 1,
+        "\x44\x45\x53\x43": 'Base64 Encoder',
+        "\x4D\x41\x4E": '<b class=\'hlight\'>base64encode</b> text'
+    },
+    "\x62\x61\x73\x65\x36\x34\x64\x65\x63\x6F\x64\x65": {
+        "\x41\x52\x47\x53": 1,
+        "\x44\x45\x53\x43": 'Base64 Decoder',
+        "\x4D\x41\x4E": '<b class=\'hlight\'>base64decode</b> text'
+    },
+    "\x72\x6F\x74\x31\x33": {
+        "\x41\x52\x47\x53": 1,
+        "\x44\x45\x53\x43": 'Rot13+Rot5 Encoder/Decoder',
+        "\x4D\x41\x4E": '<b class=\'hlight\'>rot13</b> text'
+    },
+    "\x72\x6F\x74\x34\x37": {
+        "\x41\x52\x47\x53": 1,
+        "\x44\x45\x53\x43": 'Rot47 Encoder/Decoder',
+        "\x4D\x41\x4E": '<b class=\'hlight\'>rot47</b> text'
+    },
+    "\x72\x61\x6E\x64\x6F\x6D\x70\x61\x73\x73": {
+        "\x41\x52\x47\x53": 1,
+        "\x44\x45\x53\x43": 'Generate random password',
+        "\x4D\x41\x4E": '<b class=\'hlight\'>randompass</b> n'
+    },
+    "\x72\x61\x6E\x64\x6F\x6D\x69\x64\x65\x6E\x74\x69\x74\x79": {
+        "\x41\x52\x47\x53": 0,
+        "\x44\x45\x53\x43": 'Generate random identity',
+        "\x4D\x41\x4E": 'Type \'<b class=\'hlight\'>randomidentity</b>\' without any argument.'
+    }
+};
+(function(_0xf2a4x2) {
+    _0xf2a4x2['fn']['disableInput'] = function() {
+        _0xf2a4x2('#loading')['show']();
+        _0xf2a4x2(this)['prop']('readonly', true);
+        return true
+    };
+    _0xf2a4x2['fn']['enableInput'] = function() {
+        _0xf2a4x2('#loading')['hide']();
+        _0xf2a4x2(this)['prop']('readonly', false);
+        return true
+    }
+})(jQuery);
+
+function ltrim(_0xf2a4x4) {
+    return _0xf2a4x4['replace'](/^\s+/, '')
+}
+
+function rtrim(_0xf2a4x4) {
+    return _0xf2a4x4['replace'](/\s+$/, '')
+}
+
+function escapeRegExp(_0xf2a4x7) {
+    return _0xf2a4x7['replace'](/([.*+?^=!:${}()|\[\]\/\\])/g, '$1')
+}
+
+function replaceAll(_0xf2a4x7, _0xf2a4x9, _0xf2a4xa) {
+    return _0xf2a4x7['replace'](new RegExp(escapeRegExp(_0xf2a4x9), 'g'), _0xf2a4xa)
+}
+Object['size'] = function(_0xf2a4xb) {
+    var _0xf2a4xc = 0,
+        _0xf2a4xd;
+    for (_0xf2a4xd in _0xf2a4xb) {
+        if (_0xf2a4xb['hasOwnProperty'](_0xf2a4xd)) {
+            _0xf2a4xc++
+        }
+    };
+    return _0xf2a4xc
+};
+
+function htmlspecialchars(_0xf2a4x7) {
+    if (typeof(_0xf2a4x7) == 'string') {
+        _0xf2a4x7 = _0xf2a4x7['replace'](/&/g, '&amp;');
+        _0xf2a4x7 = _0xf2a4x7['replace'](/"/g, '&quot;');
+        _0xf2a4x7 = _0xf2a4x7['replace'](/'/g, '&#039;');
+        _0xf2a4x7 = _0xf2a4x7['replace'](/</g, '&lt;');
+        _0xf2a4x7 = _0xf2a4x7['replace'](/>/g, '&gt;')
+    };
+    return _0xf2a4x7
+}
+
+function GetSelectedText() {
+    if (window['getSelection']) {
+        var _0xf2a4x10 = window['getSelection']();
+        return _0xf2a4x10.toString()
+    } else {
+        if (document['selection']['createRange']) {
+            var _0xf2a4x10 = document['selection']['createRange']();
+            return _0xf2a4x10['text']
+        }
+    }
+}
+
+function fixparameter(_0xf2a4x12) {
+    var _0xf2a4x13 = _0xf2a4x12;
+    while (_0xf2a4x13['search']('  ') > 0) {
+        _0xf2a4x13 = replaceAll(_0xf2a4x13, '  ', ' ')
+    };
+    return _0xf2a4x13
+}
+
+function _ret(_0xf2a4x13, _0xf2a4x15) {
+    if (_0xf2a4x15 === undefined) {
+        _0xf2a4x15 = true
+    };
+    if (_0xf2a4x15) {
+        txt = htmlspecialchars(_0xf2a4x13)
+    } else {
+        txt = _0xf2a4x13
+    };
+    $('#result')['append']('<pre>' + txt + '</pre>');
+    $('#container')['scrollTop']($('#container')['get'](0)['scrollHeight']);
+    if ($['browser']['mobile']) {
+        fixpos()
+    }
+}
+
+function _parse(_0xf2a4x17) {
+    _cmd = ltrim(_0xf2a4x17);
+    $('#console')['val']('');
+    if (_cmd['length'] === 0 || _cmd == ' ') {
+        $('#container')['scrollTop']($('#container')['get'](0)['scrollHeight']);
+        if ($['browser']['mobile']) {
+            fixpos()
+        }
+    } else {
+        __cmd = htmlspecialchars(_cmd);
+        args = _cmd['split'](' ');
+        _exe = args[0];
+        _exe = _exe['toLowerCase']();
+        _parameters = _cmd['substr'](_exe['length'] + 1, _cmd['length'] - (_exe['length'] + 1));
+        switch (_exe) {
+            default: _ret('Command not supported. Type \'<b class=\'hlight\'>help</b>\' for more info.', false);
+            break;
+            case 'clear':
+                    _clear();
+                break;
+            case 'help':
+                    _help();
+                break;
+            case 'reload':
+                    _reload();
+                break;
+            case 'exit':
+                    _exit();
+                break;
+            case 'showall':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_showall.js', function() {
+                    _showall()
+                });
+                break;
+            case 'myuseragent':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_myuseragent.js', function() {
+                    _myuseragent()
+                });
+                break;
+            case 'myip':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_myip.js', function() {
+                    _myip()
+                });
+                break;
+            case 'man':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_man.js', function() {
+                    _man(_parameters)
+                });
+                break;
+            case 'ping':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_ping.js', function() {
+                    _ping(_parameters)
+                });
+                break;
+            case 'traceroute':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_traceroute.js', function() {
+                    _traceroute(_parameters)
+                });
+                break;
+            case 'iplookup':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_iplookup.js', function() {
+                    _iplookup(_parameters)
+                });
+                break;
+            case 'reverseip':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_reverseip.js', function() {
+                    _reverseip(_parameters)
+                });
+                break;
+            case 'dnsrecord':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_dnsrecord.js', function() {
+                    _dnsrecord(_parameters)
+                });
+                break;
+            case 'whois':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_whois.js', function() {
+                    _whois(_parameters)
+                });
+                break;
+            case 'randomidentity':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_randomidentity.js', function() {
+                    _randomidentity()
+                });
+                break;
+            case 'md5':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_md5.js', function() {
+                    _md5(_parameters)
+                });
+                break;
+            case 'randompass':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_randompass.js', function() {
+                    _randompass(_parameters)
+                });
+                break;
+            case 'base64encode':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_base64.js', function() {
+                    _base64encode(_parameters)
+                });
+                break;
+            case 'base64decode':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_base64.js', function() {
+                    _base64decode(_parameters)
+                });
+                break;
+            case 'rot13':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_rot13.js', function() {
+                    _rot13(_parameters)
+                });
+                break;
+            case 'rot47':
+                    $['getScript']('../[DATA]/[JS]/[APP]/_rot47.js', function() {
+                    _rot47(_parameters)
+                });
+                break
+        }
+    }
+}
+
+function _clear() {
+    $('#result')['empty']();
+    if ($['browser']['mobile']) {
+        fixpos()
+    }
+}
+
+function _reload() {
+    location['reload']()
+}
+
+function _exit() {
+    window['close']()
+}
+
+function _help() {
+    helptxt = '\x0D<font color=\'#E0A394\'>[Author]<br>&nbsp;&nbsp;&nbsp;Lina Sensei<br>\x0D[Contact]<br>&nbsp;&nbsp;&nbsp;Facebook: ~/LinaSS.BATeam<br>&nbsp;&nbsp;&nbsp;Mail: mail[at]vynghia.com</font><br><br>\x0DType `<b class=\'hlight\'>showall</b>\' to show the list of tools.<br>\x0DType `<b class=\'hlight\'>man</b> name\' to show manual of command `name\'.<br>\x0DTo reload console, you can type `<b class=\'hlight\'>reload</b>\'. Type `<b class=\'hlight\'>clear</b>\' to clear console and `<b class=\'hlight\'>exit</b>\' to close console.\x0D	';
+    _ret(helptxt, false)
+}
